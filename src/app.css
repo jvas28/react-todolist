@@ -1,0 +1,25 @@
+.task-list{
+	text-align: center;
+	color: white !important;
+	margin: 0 auto !important;
+	width: 300px;
+}
+.task{
+	padding: 10px !important;
+	width: 300px;
+	background: rgba(255, 255, 255, 0.2);
+	cursor: pointer;
+}
+.task:hover{
+	background: rgba(255, 255, 255, 0.5) !important;
+}
+.action-icon{
+	visibility: hidden;
+}
+.task:hover .action-icon{
+	visibility: visible;
+}
+.done{
+	text-decoration: line-through;
+	color: #b86ae8;
+}
